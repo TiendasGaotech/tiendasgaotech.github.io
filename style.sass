@@ -1,0 +1,85 @@
+$principal: #3c4cf4
+$secundario: #fff
+$contraste: #000
+
+*
+    font-family: 'Roboto', sans-serif
+    margin: 0
+    padding: 0
+    font-weight: 700
+    box-sizing: border-box
+
+body
+    background-color: $principal
+
+main
+    padding: 0 20px
+    .main__logo
+        text-align: center
+        width: 80%
+        padding: 30px
+        margin:  auto
+        margin-bottom: 30px
+        img
+            width: 100%
+            max-width: 600px
+            object-fit: contain
+    .main__contact
+        a
+            display: flex
+            justify-content: center
+            width: 100%
+            padding: 10px
+            max-width: 400px
+            margin: 10px auto
+            border-radius: 10px
+            text-decoration: none
+            background-color: $secundario
+            img
+                max-width: 30px
+                
+            h3
+                line-height: 1.75
+                color: $principal
+                padding-left: 5px
+    .main__catalogos
+        width: 100%
+        margin: 20px auto
+        h2
+            text-align: center
+            color: $secundario
+        .catalogos__section
+            display: flex
+            width: 100%
+            max-width: 500px
+            margin: 20px auto
+            background-color: $secundario
+            border-radius: 5px
+            img
+                width: 50%
+                object-fit: contain
+                border-radius: 5px
+                margin: 0
+            .catalogos__content
+                width: 50%
+                text-align: center
+                padding: 20px 
+                h3
+                    display: block
+                    color: $principal
+                    
+                a
+                    display: block
+                    margin-top: 15px
+                    text-decoration: none
+                    color: $contraste
+                    padding: 3px
+                    border: 2px solid $contraste
+    .main__pagos
+        width: 100%
+        margin-bottom: 50px
+        text-align: center
+        img
+            width: 100%
+            max-width: 600px
+            object-fit: contain
